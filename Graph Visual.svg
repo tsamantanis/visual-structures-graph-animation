@@ -60,7 +60,15 @@
         <circle cx="362.944" cy="202.464" r="5" transform="rotate(-75 362.944 202.464)" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask0)">
-        <rect x="210" y="166.659" width="10" height="238" transform="rotate(-75 210 166.659)" fill="url(#paint0_linear)" />
+        <rect x="210" y="166.659" width="10" height="238" transform="rotate(-75 210 166.659)" fill="url(#paint0_linear)">
+            <animate attributeName="height"
+                values="0; 0; 238; 238; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <mask id="mask1" mask-type="alpha" maskUnits="userSpaceOnUse" x="210" y="454" width="233" height="72">
         <circle cx="234.476" cy="465.382" r="5" transform="rotate(-75 234.476 465.382)" fill="#C4C4C4"/>
@@ -78,7 +86,15 @@
         <circle cx="362.944" cy="499.805" r="5" transform="rotate(-75 362.944 499.805)" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask1)">
-        <rect x="210" y="464" width="10" height="238" transform="rotate(-75 210 464)" fill="url(#paint1_linear)"/>
+        <rect x="210" y="464" width="10" height="238" transform="rotate(-75 210 464)" fill="url(#paint1_linear)">
+            <animate attributeName="height"
+                values="0; 0; 238; 238; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <mask id="mask2" mask-type="alpha" maskUnits="userSpaceOnUse" x="216" y="603" width="233" height="72">
         <circle cx="240.476" cy="663.959" r="5" transform="rotate(-105 240.476 663.959)" fill="#C4C4C4"/>
@@ -96,7 +112,15 @@
         <circle cx="368.944" cy="629.536" r="5" transform="rotate(-105 368.944 629.536)" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask2)">
-        <rect x="218.588" y="675" width="10" height="238" transform="rotate(-105 218.588 675)" fill="url(#paint2_linear)"/>
+        <rect x="218.588" y="675" width="10" height="238" transform="rotate(-105 218.588 675)" fill="url(#paint2_linear)">
+            <animate attributeName="height"
+                values="0; 0; 238; 238; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <mask id="mask3" mask-type="alpha" maskUnits="userSpaceOnUse" x="213" y="305" width="233" height="72">
         <circle cx="237.476" cy="365.959" r="5" transform="rotate(-105 237.476 365.959)" fill="#C4C4C4"/>
@@ -114,7 +138,15 @@
         <circle cx="365.944" cy="331.536" r="5" transform="rotate(-105 365.944 331.536)" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask3)">
-        <rect x="215.588" y="377" width="10" height="238" transform="rotate(-105 215.588 377)" fill="url(#paint3_linear)"/>
+        <rect x="215.588" y="377" width="10" height="238" transform="rotate(-105 215.588 377)" fill="url(#paint3_linear)">
+            <animate attributeName="height"
+                values="0; 0; 238; 238; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <mask id="mask4" mask-type="alpha" maskUnits="userSpaceOnUse" x="517" y="364" width="10" height="110">
         <circle cx="522" cy="369" r="5" fill="#C4C4C4"/>
@@ -125,7 +157,15 @@
         <circle cx="522" cy="449" r="5" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask4)">
-        <rect x="517" y="364" width="10" height="110" fill="url(#paint4_linear)"/>
+        <rect x="517" y="364" width="10" height="110" fill="url(#paint4_linear)">
+            <animate attributeName="height"
+                values="0; 0; 110; 110; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <mask id="mask5" mask-type="alpha" maskUnits="userSpaceOnUse" x="130" y="211" width="10" height="110">
         <circle cx="135" cy="216" r="5" fill="#C4C4C4"/>
@@ -136,7 +176,15 @@
         <circle cx="135" cy="296" r="5" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask5)">
-        <rect x="130" y="211" width="10" height="110" fill="url(#paint5_linear)"/>
+        <rect x="130" y="211" width="10" height="110" fill="url(#paint5_linear)">
+            <animate attributeName="height"
+                values="0; 0; 110; 110; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <mask id="mask6" mask-type="alpha" maskUnits="userSpaceOnUse" x="130" y="511" width="10" height="110">
         <circle cx="135" cy="516" r="5" fill="#C4C4C4"/>
@@ -147,7 +195,15 @@
         <circle cx="135" cy="596" r="5" fill="#C4C4C4"/>
     </mask>
     <g mask="url(#mask6)">
-        <rect x="130" y="511" width="10" height="110" fill="url(#paint6_linear)"/>
+        <rect x="130" y="511" width="10" height="110" fill="url(#paint6_linear)">
+            <animate attributeName="height"
+                values="0; 0; 110; 110; 0;"
+                keyTimes="0; 0.25; 0.50; 0.75; 1;"
+                begin="0s"
+                dur="6s"
+                repeatCount="2"
+            />
+        </rect>
     </g>
     <defs>
         <filter id="filter0_dddd" x="0.584961" y="0.692139" width="267.83" height="241.471" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
